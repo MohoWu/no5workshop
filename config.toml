@@ -1,0 +1,60 @@
+baseurl                  = "https://example.com"           # Your domain name
+languageCode             = "en-us"
+defaultContentLanguage   = "en"
+isMultilingual           = false
+title                    = "No.5 Workshop"
+theme                    = "hugo-theme-sam"
+pygmentsStyle            = "monokai"                        # https://help.farbox.com/pygments.html
+pygmentsCodefences       = true
+# googleAnalytics        = ""                               # Tracking code, eg. "UA-111111111-1"
+ignoreFiles              = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
+staticDir                = ["static", "assets"]
+
+[params]
+    dateform             = "Mon Jan 02, 2006"
+    dateformfull         = "Mon Jan 2 2006 15:04:05 EST"
+    favicon              = "no5.ico"
+    homepage             = "N°5 workshop"                           # What to call the home page link
+    footerText           = "Oxfordshire, UK"
+
+# Metadata for Open Graph and Twitter
+    description          = "N°5 workshop"               # Max 160 characters show in search results
+    images               = ["tn.png"]                       # Image that shows on Twitter cards and Open Graph links to the site
+    title                = "N°5 workshop"
+    # rss                = ""
+
+[[params.videoBackground.sources]]
+    source  = "/sample_video.mp4"
+    type    = "video/mp4"
+    poster  = "/background.png"
+
+[params.videoBackground]
+    overlay = "/backgroud.png" # optional
+
+[[params.mainMenu]]
+    link = "about"
+    text = "readme"
+
+[[params.mainMenu]]
+    link = "project"
+    text = "projects"
+
+[[params.mainMenu]]
+    link = "plan"
+    text = "plans"
+
+[imaging]
+    quality = 75
+
+# to use html code in md
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# use extended version of hugo
+[module]
+  [module.hugoVersion]
+    extended = true
+    max = ""
+    min = ""

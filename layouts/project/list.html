@@ -1,0 +1,31 @@
+{{ define "section_content" }}
+<article class="flex-container">
+    {{ .Content }}
+</article>
+
+{{ $keepAspectRatio := default false .Params.keepAspectRatio }}
+<div class="grid {{ cond $keepAspectRatio "keep-aspect-ratio" "" }}">
+  {{ range .Data.Pages }}
+  {{ $title := .Title }}
+  <a href="{{.RelPermalink}}">
+      {{ with .Params.image }}
+      {{ $resource := resources.Get . }}
+      {{ $image := $resource.Fit "600x600" }}
+      <img
+        style="height: 90%;
+        width: 100%;
+        object-fit: cover;
+        display: block;
+        overflow: hidden;"
+        src="{{ $image.RelPermalink }}"
+        alt="Project Image Missing">
+
+        {{ $title | markdownify }}
+
+      {{ end }}
+
+  </a>
+{{ end }}
+</div>
+
+{{ end }}
