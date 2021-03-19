@@ -18,5 +18,5 @@ Woodworking is a lifetime hobby. Around my 30<sup>th</sup> birthday, I decided t
 You can find me on:
 
 - [YouTube]()
-- [Instagram]()
-- [Github]()
+- [Instagram](https://www.instagram.com/moho_wu/)
+- [Github](https://github.com/MohoWu)
