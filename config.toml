@@ -1,4 +1,4 @@
-baseurl                  = "https://no5workshop.netlify.app/"           # Your domain name
+baseurl                  = "https://www.no5shop.com"           # Your domain name
 languageCode             = "en-us"
 defaultContentLanguage   = "en"
 isMultilingual           = false
