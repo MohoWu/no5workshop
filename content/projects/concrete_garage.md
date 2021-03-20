@@ -11,7 +11,7 @@ image: "images/garage_cover.jpg"
 slug: "concrete-garage"
 ---
 
-{{< youtube QFR7Zz1SX0g >}}
+{{< youtube L5QHg-dmVqk >}}
 
 I have been woodworking in my shed for the past a year or so. As my skills grow, I increasingly feel it's not an ideal place to work in. The lighting was limited. There were no sound proof measures so I felt bad for working long hours in the weekends. Also the external dimension is only 2.4 x 3 m, a really small area considering a workshop especially when sharing with other garden tools and wood storage.
 
