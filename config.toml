@@ -18,9 +18,10 @@ staticDir                = ["static", "assets"]
     footerText           = "Oxfordshire, UK"
 
 # Metadata for Open Graph and Twitter
-    description          = "N°5 workshop"               # Max 160 characters show in search results
-    images               = ["tn.png"]                       # Image that shows on Twitter cards and Open Graph links to the site
-    title                = "N°5 workshop"
+    description          = "No5workshop; No5shop; woodworking;"               # Max 160 characters show in search results
+    images               = ["imgs/logo.PNG"]                       # Image that shows on Twitter cards and Open Graph links to the site
+    title                = "No5workshop"
+    keywords             = "woodworking; DIY projects; plans; hobby woodworker;"
     # rss                = ""
 
 [[params.videoBackground.sources]]
