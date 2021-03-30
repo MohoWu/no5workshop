@@ -40,10 +40,6 @@ staticDir                = ["static", "assets"]
     link = "project"
     text = "projects"
 
-[[params.mainMenu]]
-    link = "plan"
-    text = "plans"
-
 [imaging]
     quality = 75
 
