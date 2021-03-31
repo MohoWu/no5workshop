@@ -1,19 +1,4 @@
 {
   "name": "postcss-cli",
-  "version": "8.3.1",
-  "description": "This repository hosts files to build the https://www.no5shop.com/, a website where I share my woodworking and DIY projects. The site is built using [Hugo](https://gohugo.io/) and hosted on [Netlify](https://www.netlify.com/).",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MohoWu/no5workshop.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MohoWu/no5workshop/issues"
-  },
-  "homepage": "https://github.com/MohoWu/no5workshop#readme"
+  "version": "8.3.1"
 }
