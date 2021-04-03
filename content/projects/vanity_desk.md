@@ -7,13 +7,15 @@ tags:
 - desk
 - furniture
 - vanity
+- plans
 title: Vanity desk
 type: "posts"
 image: "images/vanity_desk.png"
 slug: "vanity-desk"
 ---
 
+{{< youtube 6rWJGkT-61Y>}}
 
-{{< youtube DcdUNaTNtG4>}}
+In this video, I made a desk that can double up as a vanity with lots of storage. I think it's a great solution for a small space where a separate desk and vanity just take too much space.
 
-Free plan [here](/plans/vanity_desk.pdf).
+If you want to impress your significant other by building something similar, you can find free plan [here](/plans/vanity_desk.pdf).
