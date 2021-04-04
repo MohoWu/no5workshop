@@ -34,7 +34,7 @@ staticDir                = ["static", "assets"]
 
 [[params.mainMenu]]
     link = "about"
-    text = "readme"
+    text = "about"
 
 [[params.mainMenu]]
     link = "project"
